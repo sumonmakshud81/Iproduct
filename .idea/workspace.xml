@@ -157,6 +157,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -170,7 +171,7 @@
       <updated>1741780404072</updated>
       <workItem from="1741780405574" duration="2732000" />
       <workItem from="1741783246835" duration="615000" />
-      <workItem from="1741790270142" duration="1609000" />
+      <workItem from="1741790270142" duration="2281000" />
     </task>
     <servers />
   </component>
@@ -178,10 +179,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="19" key="FileChooserDialogImpl" timestamp="1741790131258">
+    <state x="368" y="19" key="FileChooserDialogImpl" timestamp="1741792123471">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="368" y="19" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1741790131258" />
+    <state x="368" y="19" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1741792123471" />
     <state x="284" y="10" width="712" height="660" key="find.popup" timestamp="1741782056273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
