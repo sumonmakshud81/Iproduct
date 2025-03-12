@@ -1,0 +1,30 @@
+.modal {
+  .modal-header {
+    position: relative;
+    background-color: #f8f8f8;
+    border-bottom: none;
+    padding: 11px 19px;
+    .modal-title {
+      color: #5e5873;
+      font-size: 18px;
+    }
+    button.btn-close {
+      padding: 5px;
+      box-shadow: 0 5px 20px rgba(34, 41, 47, 0.1) !important;
+      border-radius: 0.357rem;
+      background: #fff !important;
+      width: 25px;
+      height: 25px;
+      opacity: 1;
+      transform: translate(21px, -12px);
+      transition: all 0.3s;
+      &:hover {
+        transform: translate(12px, -8px);
+      }
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+}

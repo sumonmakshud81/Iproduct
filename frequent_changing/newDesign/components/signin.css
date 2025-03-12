@@ -1,0 +1,188 @@
+.bg-blue-color {
+  background-color: #8B5CF6;
+  color: white;
+}
+
+/*
+  Custom Btn Style
+*/
+.bg-red-btn {
+  background-color: #ea5455;
+}
+.bg-red-btn:hover, .bg-red-btn:focus {
+  box-shadow: 0 8px 25px -12px #ea5455 !important;
+}
+
+.bg-blue-btn {
+  background-color: #1489F6;
+}
+.bg-blue-btn:hover, .bg-blue-btn:focus {
+  box-shadow: 0 8px 25px -12px #8B5CF6 !important;
+  background-color: #8B5CF6;
+}
+
+.bg-blue-btn,
+.bg-red-btn {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.358rem !important;
+  font-weight: 500;
+  font-size: 0.813rem;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+.bg-blue-btn svg,
+.bg-red-btn svg {
+  width: 14px;
+  height: 14px;
+}
+.bg-blue-btn:hover, .bg-blue-btn:focus,
+.bg-red-btn:hover,
+.bg-red-btn:focus {
+  color: white;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+
+.txt-color-grey {
+  color: #636363 !important;
+}
+
+.txt-color-primary {
+  color: #8B5CF6 !important;
+}
+
+.modal-body .select2-container {
+  width: 100% !important;
+}
+
+/*
+  Re-Use Class
+*/
+.m-left {
+  margin-left: 10px;
+}
+
+.m-right {
+  margin-right: 10px;
+}
+
+.p-cursor {
+  cursor: pointer;
+}
+
+select:focus,
+input:focus {
+  box-shadow: none !important;
+}
+
+/*
+  Sweet Alert Style Start
+*/
+.sweet-alert button.cancel {
+  border: 1px solid #ea5455 !important;
+  background-color: transparent !important;
+  color: #ea5455 !important;
+  transition: all 0.3s;
+}
+.sweet-alert button.cancel:hover {
+  background-color: rgba(234, 84, 84, 0.1) !important;
+}
+
+.sa-button-container .sa-confirm-button-container .confirm {
+  background-color: #8B5CF6 !important;
+  padding: 0.786rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.358rem;
+  transition: all 0.3s;
+}
+.sa-button-container .sa-confirm-button-container .confirm:hover {
+  box-shadow: 0 8px 25px -8px #8B5CF6 !important;
+}
+
+/*
+  Sweet Alert Style End
+*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8B5CF6;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #143157;
+}
+
+.buy-now-btn {
+  position: fixed;
+  right: 35px;
+  bottom: 22px;
+  background: #df2434 !important;
+  color: white;
+  box-shadow: 0 1px 23px 3px #ce1323 !important;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+.buy-now-btn:hover {
+  background: #9e101c !important;
+}
+
+.main-wrapper,
+.login-auth-page {
+  height: 100vh;
+}
+.main-wrapper .auth-title,
+.login-auth-page .auth-title {
+  color: #5e5873;
+  font-size: 1.714rem;
+  font-weight: 500;
+}
+.main-wrapper .auth-subtitle,
+.login-auth-page .auth-subtitle {
+  color: #5e5873;
+  font-size: 1.3rem;
+}
+.main-wrapper .auth-desc,
+.login-auth-page .auth-desc {
+  color: #6e6b7b;
+  font-size: 14px;
+}
+
+.login-auth-page .left-item {
+  background-color: #f8f8f8;
+}
+.login-auth-page .set_credentials {
+  padding: 8.5px 10px !important;
+}
+
+.auth-bg {
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  .signup-page {
+    padding: 20px;
+  }
+  .main-wrapper .auth-title,
+  .main-wrapper .auth-desc,
+  .login-auth-page .auth-title,
+  .login-auth-page .auth-desc {
+    text-align: center;
+  }
+}/*# sourceMappingURL=signin.css.map */

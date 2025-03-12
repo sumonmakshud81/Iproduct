@@ -1,0 +1,75 @@
+@extends('layouts.app')
+@section('script_top')
+@endsection
+
+@section('content')
+    <section class="main-content-wrapper">
+        <section class="content-header">
+            <h3 class="top-left-header">
+                {{ isset($title) && $title ? $title : '' }}
+            </h3>
+        </section>
+
+
+        <div class="box-wrapper">
+            <!-- general form elements -->
+            <div class="table-box">
+                <!-- form start -->
+                {!! Form::model(isset($obj) && $obj ? $obj : '', [
+                    'method' => isset($obj) && $obj ? 'PATCH' : 'POST',
+                    'route' => ['accounts.update', isset($obj->id) && $obj->id ? $obj->id : ''],
+                ]) !!}
+                @csrf
+                <div>
+                    <div class="row">
+                        <div class="col-sm-12 mb-2 col-md-4">
+                            <div class="form-group">
+                                <label for="Name" class="col-form-label">@lang('index.name') <span
+                                        class="required_star">*</span></label>
+                                <input type="text" name="name" id="name" class="form-control @error('name') is-invalid @enderror" placeholder="{{ __('index.name') }}" value="{{ isset($obj) && $obj->name ? $obj->name : old('name') }}">
+                                @error('name')
+                                    <div class="text-danger">{{ $message }}</div>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 mb-2 col-md-4">
+                            <div class="form-group">
+                                <label for="OpeningBalance" class="col-form-label">@lang('index.opening_balance') <span
+                                        class="required_star">*</span></label>
+                                <input type="text" name="opening_balance" id="opening_balance" class="form-control @error('opening_balance') is-invalid @enderror" placeholder="{{ __('index.opening_balance') }}" value="{{ isset($obj) && $obj->opening_balance ? $obj->opening_balance : old('opening_balance') }}">
+                                @error('opening_balance')
+                                    <div class="text-danger">{{ $message }}</div>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 mb-2 col-md-4">
+                            <div class="form-group">
+                                <label for="Description" class="col-form-label">@lang('index.description')</label>                                
+                                <input type="text" name="description" id="description" class="form-control @error('description') is-invalid @enderror" placeholder="{{ __('index.description') }}" value="{{ isset($obj) && $obj->description ? $obj->description : old('description') }}">
+                                @error('description')
+                                    <div class="text-danger">{{ $message }}</div>
+                                @enderror
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-body -->
+
+                <div class="row mt-2">
+                    <div class="col-sm-12 col-md-6 mb-2 d-flex gap-3">
+                        <button type="submit" name="submit" value="submit" class="btn bg-blue-btn"><iconify-icon
+                                icon="solar:check-circle-broken"></iconify-icon>@lang('index.submit')</button>
+                        <a class="btn bg-second-btn" href="{{ route('accounts.index') }}"><iconify-icon
+                                icon="solar:round-arrow-left-broken"></iconify-icon>@lang('index.back')</a>
+                    </div>
+                </div>
+                {!! Form::close() !!}
+            </div>
+        </div>
+    </section>
+@endsection
+
+@section('script_bottom')
+@endsection

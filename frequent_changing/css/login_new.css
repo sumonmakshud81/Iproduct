@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit:400,400i,500,500i,700,700i&amp;display=swap');
+
+* {
+    font-family: Outfit, sans-serif;
+}
+
+
+body {
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #f8f9fd;
+    color: gray;
+}
+
+.auth-title {
+    font-weight: 600;
+}
+
+.ftco-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.wrap {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+}
+
+.wrap-2 {
+    width: 425px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+}
+
+.msg-wrap-2 {
+    width: 425px;
+}
+
+.img,
+.login-wrap {
+    width: 50%;
+}
+
+.login-wrap-2 {
+    width: 100%;
+}
+
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.login-wrap,
+.login-wrap-2 {
+    position: relative;
+    background: #fff;
+    font-weight: 300;
+    padding: 20px 30px;
+}
+
+.logo-area {
+    padding-bottom: 20px;
+}
+
+.img,
+.login-wrap {
+    width: 50%;
+}
+
+.p-md-5 {
+    padding: 3rem !important;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    height: 48px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+input:focus::placeholder {
+    transition: all 0.3s;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    transition: all 0.3s;
+    font-size: 14px;
+}
+
+.btn.btn-primary {
+    border: 1px solid transparent !important;
+    color: #307ef3;
+    background-color: rgba(48, 126, 243, 0.1);
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+}
+
+.btn.btn-primary:hover {
+    border: 1px solid #307ef3 !important;
+}
+
+.checkbox-primary {
+    color: #307ef3;
+}
+
+.btn-2 {
+    height: 48px;
+}
+
+.checkbox-wrap {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.checkbox-primary {
+    color: #e3b04b;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(5, 13, 24, 0.568);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.overlay h4,
+.overlay p {
+    color: white;
+
+}
+
+.business-grap {
+    position: relative;
+}
+
+.alert-dismissible .btn-close {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    font-size: 12px;
+}
+
+.alert-danger {
+    color: #f51111 !important;
+    background-color: rgb(243 48 48 / 10%) !important;
+    border-color: transparent;
+}
+
+.alert-success .btn-close {
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235ABF35 '%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/0.75rem auto no-repeat;
+    color: #5ABF35 !important;
+}
+
+.alert-success {
+    background: #f0fbea !important;
+    border-color: transparent;
+    color: #0f5132;
+}
+
+.alert-danger .btn-close {
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff503d'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/0.75rem auto no-repeat;
+    color: #ff503d !important;
+}
+
+.alert-success .alert-heading,
+.alert-success .alert-body {
+    color: #5ABF35 !important;
+}
+
+.forgot-pass-wrap {
+    margin-bottom: 5px;
+
+}
+
+.forgot-pass {
+    font-weight: 500;
+    color: #307ef3;
+    text-decoration: underline;
+}
+
+
+.select2-search--dropdown .select2-search__field {
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #aaa;
+}
+
+[type="search"] {
+    outline: none !important;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border-color: #8B5CF6;
+    border-radius: 5px;
+}
+
+.select2-container--default .select2-results__option[aria-selected="true"] {
+    background-color: #D9F2FF;
+    color: #143157 !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #EEF9FF;
+    color: #143157 !important;
+}
+
+.select2-container--default .select2-results>.select2-results__options li {
+    font-size: 14px;
+    color: #5e5873;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-selection .select2-selection--single {
+    height: 48px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 10px;
+    right: 1px;
+    width: 20px;
+}
+
+.wrap-2 {
+    width: 425px;
+}
+
+.login-wrap-2 {
+    width: 100%;
+}
+
+.login-card-wrapper-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-button {
+    color: white;
+    text-decoration: none;
+    padding: 8.5px 21px !important;
+    border-radius: 0.358rem !important;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    background-color: #8B5CF6;
+    width: 100%;
+}
+
+.login-button:active,
+.login-button:hover {
+    box-shadow: 0 8px 25px -8px #8B5CF6 !important;
+    color: white !important;
+    background-color: #8B5CF6 !important;
+    border-color: #8B5CF6 !important;
+}
+
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+    border-color: var(--bs-form-invalid-border-color) !important;
+    box-shadow: 0 0 0 .25rem rgba(var(--bs-danger-rgb), .25) !important;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    border-color: var(--bs-form-invalid-border-color) !important;
+}
+
+/*  Tablet PC: 992px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*  Tablet Mobile: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .business-grap {
+        display: none;
+    }
+
+    .wrap {
+        width: 425px;
+    }
+
+    .login-wrap {
+        width: 100%;
+    }
+
+    .login-card-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*  Mobile : 576px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .business-grap {
+        display: none;
+    }
+
+    .wrap {
+        width: 425px;
+    }
+
+    .login-wrap {
+        width: 100%;
+    }
+
+    .login-card-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/*  Mobile Small Device: 450px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 450px) and (max-width: 575.98px) {
+    .business-grap {
+        display: none;
+    }
+
+    .wrap {
+        width: 425px;
+    }
+
+    .login-wrap {
+        width: 100%;
+    }
+
+    .login-card-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*  Mobile Small Device: 320px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 320px) and (max-width: 449.98px) {
+    .business-grap {
+        display: none;
+    }
+
+    .wrap {
+        width: 100%;
+    }
+
+    .login-wrap {
+        width: 100%;
+    }
+
+    .login-card-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .login-parent-wrapper{
+        width: 100%;
+    }
+
+    .login-wrap,
+    .login-wrap-2 {
+        padding: 20px 15px;
+    }
+
+    .wrap-2 {
+        width: 100%;
+    }
+
+    .login-wrap-2 {
+        width: 100%;
+    }
+
+    .login-card-wrapper-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.select2-container {
+    border: 1px solid #dfdbdb;
+}
+
+.login_btn_click {
+    font-size: 26px !important;
+    padding: 5px 15px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: unset !important;
+}

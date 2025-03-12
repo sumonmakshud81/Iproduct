@@ -1,0 +1,38 @@
+.user-profile-card,
+.table-card{
+    background-color: white;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    border: 1px solid #EAEAEA;
+    transition:  all 0.3s;
+    &:hover{
+        box-shadow: 0 0 40px rgba(8, 21, 66, 0.05);
+    }
+}
+.user-profile-card{
+    padding: 20px;
+    .menu-list{
+        list-style-type: none;
+        margin: 20px 0 0;
+        padding: 0;
+        .item{
+            a{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                text-decoration: none;
+                padding: 10px 15px;
+                border-radius: 10px;
+                transition: all 0.3s;                
+                span:nth-child(2){
+                    flex: 1;
+                    display: inline-block;
+                    font-size: 0.875rem;
+                }
+            }
+        }
+    }
+}
+.table-card{
+    padding: 10px;
+}

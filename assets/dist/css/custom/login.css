@@ -1,0 +1,44 @@
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh !important;
+  background-color: #f4f5f7;
+}
+.credit {
+  text-align: center;
+  padding: 5px;
+}
+.content-wrapper {
+  margin-left: 0px !important;
+  min-height: 90% !important;
+}
+
+.main-footer {
+  margin-left: 0px !important;
+  text-align: center;
+}
+
+.box {
+  width: 75% !important;
+  margin-left: 15% !important;
+  text-align: center !important;
+}
+.required_star {
+  color: #dd4b39 !important;
+}
+#language {
+  display: inline-block;
+  width: 20%;
+}
+.alert-info {
+  background-color: white !important;
+  color: #0c5889 !important;
+  padding: 3px 3px 3px 15px;
+  border: 1px solid #0c5889;
+  display: none;
+}
+.alert {
+  padding: 5px !important;
+}

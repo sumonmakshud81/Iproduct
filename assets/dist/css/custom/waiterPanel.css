@@ -1,0 +1,13 @@
+select {
+  width: 100%;
+  height: 35px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#language {
+  display: inline-block;
+  width: 20%;
+  margin: 10px 10px 0px 0px;
+  float: right;
+}

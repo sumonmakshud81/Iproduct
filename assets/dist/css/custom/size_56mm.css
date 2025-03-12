@@ -1,0 +1,15 @@
+#wrapper {
+    max-width: 480px;
+}
+.text-right{
+    width: 50% !important;
+}
+
+@media print {
+   #wrapper {
+        max-width: 480px;
+    }
+    .text-right{
+        width: 50% !important;
+    }
+}

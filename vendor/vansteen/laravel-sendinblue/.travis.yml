@@ -1,0 +1,23 @@
+language: php
+php:
+  - "7.2"
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+env:
+  - PHPUNIT_VERSION=8.0.* TESTBENCH_VERSION=4.*
+
+before_script:
+  - travis_retry composer self-update
+  - travis_retry composer require "phpunit/phpunit:${PHPUNIT_VERSION}" --no-update
+  - travis_retry composer require "orchestra/testbench:${TESTBENCH_VERSION}" --no-update
+  - travis_retry composer update --no-interaction --prefer-source
+
+script:
+  - mkdir -p build/logs
+  - php vendor/bin/phpunit --coverage-clover build/logs/clover.xml
+
+after_script:
+  - php vendor/bin/php-coveralls -v

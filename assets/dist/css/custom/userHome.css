@@ -1,0 +1,48 @@
+.company_info {
+  min-height: 41px;
+  color: white !important;
+  text-align: center;
+  font-weight: bold;
+}
+.breadcrumb {
+  padding: 0px 5px !important;
+}
+.btn-primary {
+  background-color: #3c8dbc;
+}
+.form_question {
+  font-size: 24px;
+  color: #3c8dbc;
+  padding-top: 7px;
+}
+.main-footer {
+  padding: 14px 10px !important;
+}
+.main-footer p {
+  padding-top: 10px;
+}
+.left-sdide {
+  float: left !important;
+}
+.navbar-nav > .user-menu > .dropdown-menu dropdown-menu-right {
+  width: 50px;
+}
+/* .dropdown-menu {
+  border: 1px solid #3c8dbc !important;
+} */
+.loader {
+  display: none;
+}
+#myModal .modal-title {
+  text-align: left;
+}
+#register_details_body p {
+  text-align: left;
+  margin: 0px 0px 10px 0px;
+}
+.visible_txt {
+  background-color: #b6daf5 !important;
+  color: #495057 !important;
+  border: 1px solid #a9bdcc !important;
+  transition: all 0.15s ease-in-out;
+}

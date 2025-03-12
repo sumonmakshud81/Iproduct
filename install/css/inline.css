@@ -1,0 +1,113 @@
+html{ height: 100%; }
+form { margin:0; }
+.main_header{
+    height:100vh;
+    background: radial-gradient(ellipse at center, #8B5CF6 0%, #1f1e21 100%);
+    background-repeat:no-repeat;
+}
+.button_1{
+    background-color: #0c5889;
+}
+.ins_h3{
+    margin-left:25px; margin-top: 10px; text-align: center;
+}
+.ins_1{
+    width: 15%; height: 15%;
+}
+.ins_2{
+    line-height: 20px;
+    margin-left:25px;
+    color: #7b232c!important;
+    margin-bottom: 4px;
+}
+.ins_3{
+    margin-left:25px; margin-right:25px;
+}
+.ins_4{
+    width: 100%;
+}
+.ins_4_{
+    width: 95%;
+}
+.ins_5{
+    width: 100%; margin-left:25px; margin-top: 10px;
+}
+.ins_6{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ins_7{
+    margin-left:25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.ins_8{
+    margin-top: 10px
+}
+.ins_9{
+    font-weight:bold; letter-spacing:1px;
+}
+.ins_10{
+    margin-left:25px;
+    margin-right: 50px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b5d6f6;
+    background-color: #ffffffa1;
+}
+
+.ins_11{
+    margin-left:25px;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ac898e;
+    background-color: #ffb9b9d6;
+    text-align: center;
+}
+.ins_12{
+    width: 100%;
+    margin-top: 0px;
+}
+.ins_13{
+    margin-left:25px; margin-right: 25px;
+}
+.ins_14{
+    margin-left:25px;margin-right:25px;
+}
+.color_red {
+    color: #7b232c!important;
+    line-height: 0px;
+    font-size: 14px;
+}
+.right_arrow{
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.left_arrow{
+    margin-top: 5px;
+    padding-right: 5px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #136396;
+    border-color: #0c5889;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2472a3;
+    border-color: #0c5889;
+}
+label {
+    display: inline-block;
+    margin-bottom: .1rem;
+    margin-top: 7px;
+    font-weight: 500;
+}
+.red{
+    color:#790606
+}

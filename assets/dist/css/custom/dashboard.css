@@ -1,0 +1,138 @@
+.btn-glyphicon {
+  padding: 8px;
+  background: #ffffff;
+  margin-right: 4px;
+}
+
+.icon-btn {
+  padding: 1px 15px 3px 2px;
+  border-radius: 5px;
+}
+
+.text-info {
+  color: white;
+  padding: 10px;
+}
+.h-95 {
+  height: calc(100% - 20px);
+}
+#operation_comparision_range_fields {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #d8dce0;
+  top: 0;
+  right: 0;
+  box-shadow: 0px 0px 12px #8e8e8e;
+  border-radius: 5px;
+  display: none;
+  z-index: 1;
+}
+
+#operation_comparision_input {
+  border: 1px solid #cfcfcf;
+  height: 30px;
+  width: 90%;
+  padding: 0px 0px 0px 5px;
+  margin: 5%;
+}
+
+.btn-info {
+  margin-bottom: 15px;
+  margin-right: 30px;
+  width: 170px;
+  font-size: 13px;
+  border: 1px solid #868e96 !important;
+  background-color: transparent;
+  color: #868e96;
+}
+
+.btn-info .fa {
+  color: #868e96;
+}
+
+.btn-info:hover {
+  background-color: #868e96;
+  color: #ffffff;
+}
+
+.btn-info:hover .fa {
+  color: #ffffff;
+}
+
+/* end 1 */
+.btn-info:nth-child(2) {
+  border-color: #4caf50 !important;
+  color: #4caf50;
+}
+
+.btn-info:nth-child(2) .fa {
+  color: #4caf50;
+}
+
+.btn-info:nth-child(2):hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.btn-info:nth-child(2):hover .fa {
+  color: #ffffff;
+}
+
+/* end 2 */
+.btn-info:nth-child(3) {
+  border-color: #f44336 !important;
+  color: #f44336;
+}
+
+.btn-info:nth-child(3) .fa {
+  color: #f44336;
+}
+
+.btn-info:nth-child(3):hover {
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+.btn-info:nth-child(3):hover .fa {
+  color: #ffffff;
+}
+
+/* end 3 */
+.btn-info:nth-child(4) {
+  border-color: #00bcd4 !important;
+  color: #00bcd4;
+}
+
+.btn-info:nth-child(4) .fa {
+  color: #00bcd4;
+}
+
+.btn-info:nth-child(4):hover {
+  background-color: #00bcd4;
+  color: #ffffff;
+}
+
+.btn-info:nth-child(4):hover .fa {
+  color: #ffffff;
+}
+
+/* end 4 */
+.btn-info:nth-child(5) {
+  border-color: #4834d4 !important;
+  color: #4834d4;
+}
+
+.btn-info:nth-child(5) .fa {
+  color: #4834d4;
+}
+
+.btn-info:nth-child(5):hover {
+  background-color: #4834d4;
+  color: #ffffff;
+}
+
+.btn-info:nth-child(5):hover .fa {
+  color: #ffffff;
+}

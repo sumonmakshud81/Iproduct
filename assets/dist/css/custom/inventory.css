@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 3px 0px;
+}
+
+.body_area {
+  padding: 1px;
+}
+
+.tbl {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.tbl tr td {
+  padding: 14px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  border-style: solid;
+  border-width: 1px;
+  word-break: break-all;
+}
+
+.title {
+  font-weight: bold;
+}
+#stockValue a svg {
+  stroke: #00c0ef;
+  width: 22px;
+  position: relative;
+  top: 7px;
+  left: 5px;
+}

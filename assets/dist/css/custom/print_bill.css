@@ -1,0 +1,63 @@
+body {
+  color: #000;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.btn {
+  border-radius: 0;
+  margin-bottom: 5px;
+}
+
+.bootbox .modal-footer {
+  border-top: 0;
+  text-align: center;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+.order_barcodes img {
+  float: none !important;
+  margin-top: 5px;
+}
+.ir_txt_center {
+  text-align: center !important;
+}
+.ir_wid_70 {
+  width: 70%; !important;
+}
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  #wrapper {
+    margin: 0 auto;
+  }
+
+  .no-border {
+    border: none !important;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid #ddd !important;
+  }
+
+  table tfoot {
+    display: table-row-group;
+  }
+  .ir_txt_center {
+    text-align: center !important;
+  }
+  .ir_txt_right {
+    text-align: right !important;
+  }
+  .ir_wid_70 {
+    width: 70%; !important;
+  }
+}

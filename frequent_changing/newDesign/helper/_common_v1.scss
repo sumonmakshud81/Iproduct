@@ -1,0 +1,142 @@
+.bg-blue-color {
+  background-color: $primary-color;
+  color: white;
+}
+/*
+  Custom Btn Style
+*/
+.bg-red-btn {
+  background-color: $red;
+  &:hover,
+  &:focus {
+    box-shadow: 0 8px 25px -12px $red !important;
+  }
+}
+.bg-blue-btn {
+  background-color: #1489F6;
+  &:hover,
+  &:focus {
+    box-shadow: 0 8px 25px -12px #8B5CF6!important;
+    background-color: #8B5CF6;
+  }
+}
+.bg-blue-btn,
+.bg-red-btn {
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1.25rem;
+    border-radius: 0.358rem !important;
+    font-weight: 500;
+    font-size: .813rem;
+    text-transform: capitalize;
+    transition: all 0.3s;
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+  &:hover,
+  &:focus {
+    color: white;
+  }
+}
+
+
+
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+.txt-color-grey {
+  color: #636363 !important;
+}
+.txt-color-primary {
+  color: $primary-color !important;
+}
+.modal-body {
+  .select2-container {
+    width: 100% !important;
+  }
+}
+/*
+  Re-Use Class
+*/
+.m-left {
+  margin-left: 10px;
+}
+.m-right {
+  margin-right: 10px;
+}
+.p-cursor {
+  cursor: pointer;
+}
+
+select:focus,
+input:focus {
+  box-shadow: none !important;
+}
+
+/*
+  Sweet Alert Style Start
+*/
+.sweet-alert button.cancel {
+  border: 1px solid #ea5455 !important;
+  background-color: transparent !important;
+  color: #ea5455 !important;
+  transition: all 0.3s;
+  &:hover {
+    background-color: rgba(234, 84, 84, 0.1) !important;
+  }
+}
+.sa-button-container {
+  .sa-confirm-button-container {
+    .confirm {
+      background-color: $primary-color !important;
+      padding: 0.786rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 0.358rem;
+      transition: all 0.3s;
+      &:hover {
+        box-shadow: 0 8px 25px -8px $primary-color !important;
+      }
+    }
+  }
+}
+/*
+  Sweet Alert Style End
+*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $primary-color;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #143157;
+}
+
+
+.buy-now-btn{
+    position: fixed;
+    right: 35px;
+    bottom: 22px;
+    background: #df2434 !important;
+    color: white;
+    box-shadow: 0 1px 23px 3px #ce1323!important;
+    z-index: 100;
+    transition: background-color 0.3s ease;
+    &:hover{
+        background: #9e101c !important;
+    }
+}

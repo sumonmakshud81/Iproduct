@@ -1,0 +1,40 @@
+.company_info {
+  min-height: 41px;
+  color: white !important;
+  text-align: center;
+  font-weight: bold;
+}
+
+.breadcrumb {
+  padding: 0px 5px !important;
+}
+
+.btn-primary {
+  background-color: #3c8dbc;
+}
+
+.form_question {
+  font-size: 24px;
+  color: #3c8dbc;
+  padding-top: 7px;
+}
+
+.main-footer {
+  padding: 10px !important;
+}
+
+.main-footer p {
+  padding-top: 10px;
+}
+
+.left-sdide {
+  float: left !important;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu dropdown-menu-right {
+  width: 50px;
+}
+
+.dropdown-menu {
+  border: 1px solid #3c8dbc !important;
+}
