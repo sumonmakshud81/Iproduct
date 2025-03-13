@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b7bc4d4-e2c0-4363-a0bc-ae5037e568f3" name="Default Changelist" comment="" />
+    <list default="true" id="3b7bc4d4-e2c0-4363-a0bc-ae5037e568f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +32,9 @@
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -176,22 +201,38 @@
       <updated>1741780404072</updated>
       <workItem from="1741780405574" duration="2732000" />
       <workItem from="1741783246835" duration="615000" />
-      <workItem from="1741790270142" duration="2598000" />
+      <workItem from="1741790270142" duration="2988000" />
+      <workItem from="1741845071378" duration="3565000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="147" key="#SQL_Dialects" timestamp="1741848349738">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="147" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1741848349738" />
     <state x="368" y="19" key="FileChooserDialogImpl" timestamp="1741792123471">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="368" y="19" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1741792123471" />
-    <state x="284" y="10" width="712" height="660" key="find.popup" timestamp="1741782056273">
+    <state x="284" y="10" width="712" height="660" key="find.popup" timestamp="1741847886700">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="284" y="10" width="712" height="660" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1741782056273" />
+    <state x="284" y="10" width="712" height="660" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1741847886700" />
     <state x="219" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1741781387298">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

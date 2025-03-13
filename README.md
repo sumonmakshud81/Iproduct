@@ -56,4 +56,3 @@ php artisan cache:clear
 ```
 
 ++++ shizan ++++
-```

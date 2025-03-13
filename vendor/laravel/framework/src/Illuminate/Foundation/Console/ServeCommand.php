@@ -301,16 +301,18 @@ class ServeCommand extends Command
      */
     protected function getDateFromLine($line)
     {
-        $regex = env('PHP_CLI_SERVER_WORKERS', 1) > 1
-            ? '/^\[\d+]\s\[([a-zA-Z0-9: ]+)\]/'
-            : '/^\[([^\]]+)\]/';
-
-        $line = str_replace('  ', ' ', $line);
+        $regex = '/^\[([A-Za-z]{3} \w{3} \d{1,2} \d{2}:\d{2}:\d{2} \d{4})\]/';
 
         preg_match($regex, $line, $matches);
 
+        if (!isset($matches[1])) {
+            \Log::error("Date not found in log line: " . $line);
+            return now(); // Return current timestamp instead of null
+        }
+
         return Carbon::createFromFormat('D M d H:i:s Y', $matches[1]);
     }
+
 
     /**
      * Get the request port from the given PHP server output.
